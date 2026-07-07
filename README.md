@@ -49,8 +49,9 @@ conocimiento de un mago.
 
 ## Parte 0: Repo
 
-Cada equipo deberá crear un repo para el desarrollo de este juego. Todos los
-miembros del equipo deberán tener acceso al repo.
+Un integrante de cada equipo deberá crear un repo en su cuenta personal de
+GitHub para el desarrollo de este juego. Todos los miembros del equipo deberán
+tener acceso a ese repo.
 
 ## Parte 1: Modelado
 
@@ -192,3 +193,81 @@ nada.
 > Cuando comiences un chat con Copilot, dile que eres un estudiante, por
 > ejemplo, "soy un estudiante que ..."; esto puede mejorar la ayuda que te da
 > Copilot.
+
+# Rúbrica
+
+Este es el criterio de corrección.
+
+## Rúbrica parte 0: Repo
+
+La entrega ocurre en un repositorio creado en la cuenta personal de uno de los
+integrantes del equipo; los demás integrantes tienen acceso a ese repositorio.
+
+Todos los integrantes del equipo deben de haber contribuido a la solución.
+
+Cuando las instrucciones dicen "cada estudiante", recuerden que cada uno trabaja
+en ramas de git independientes; por lo tanto, el código en los commits en cada
+una de las ramas permite encontrar qué entregó cada estudiante.
+
+## Rúbrica parte 1: Modelado
+
+Hay un diagrama de clases en [DIAGRAM.md](./DIAGRAM.md) y coincide con el
+dominio en la [parte 1](#parte-1-modelado); no solo el dominio descrito en `##
+Parte 1: Modelado`, sino en todo el documento.
+
+* Expert: El diagrama es totalmente consistente con el código final.
+
+* Developing: Hay algunas inconsistencias menores.
+
+* Beginning: Hay inconsistencias mayores.
+
+* None: No hay cambios respecto al diagrama provisto.
+
+## Rúbrica parte 2: Creación
+
+Cada estudiante implementó las clases requeridas en la [parte
+2](#parte-2-creación).
+
+El código muestra buenas abstracciones y encapsulación.
+
+* Expert: Clases requeridas implementadas correctamente, buenas abstracciones y
+  encapsulación.
+
+* Developing: Algunas clases correctamente implementadas, problemas menores de
+  abstracción y encapsulación.
+
+* Beginning: No todas las clases implementadas, o problemas menores en la
+  implementación; algunos problemas menores de abstracción y encapsulación.
+
+* None: No hay clases implementadas.
+
+## Rúbrica parte 3: Cobrando poder
+
+Cada estudiante implementó los comportamientos descritos en la
+[parte 3](.#parte-3-cobrando-poder).
+
+La lógica es correcta y hay buen uso de los constructos del lenguaje.
+
+* Expert: Comportamiento requerido correctamente implementado, buen uso del
+  lenguaje de programación.
+
+* Developing: Algunos comportamientos correctamente implementados, problemas
+  menores en el uso del lenguaje de programación.
+
+* Beginning: No todos los comportamientos implementados, o problemas menores en
+  la implementación; problemas menores en el uso del lenguaje de programación.
+
+* None: No hay comportamientos implementados.
+
+## Rúbrica parte 4: Testing
+
+Cada estudiante implementó los tests unitarios correspondientes.
+
+* Expert: Hay tests al menos para los comportamientos.
+
+* Developing: Hay algunos tests, pero no todos los comportamientos están
+  testeados.
+
+* Beginning: Muy pocos tests.
+
+* None: No hay tests.
