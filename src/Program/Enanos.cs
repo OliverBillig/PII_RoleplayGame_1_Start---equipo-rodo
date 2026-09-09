@@ -2,6 +2,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.CodeAnalysis;
 using System.Dynamic;
+using System.Runtime.CompilerServices;
 
 namespace Ucu.Poo.RolePlayGame
 {
@@ -16,7 +17,7 @@ namespace Ucu.Poo.RolePlayGame
             this.Vida = vida;
         }
 
-        public int AtaqueEnano()
+        public int RecibirAtaque()
         {
             
         }

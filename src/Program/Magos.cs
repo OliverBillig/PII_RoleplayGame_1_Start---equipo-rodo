@@ -13,7 +13,12 @@ namespace Ucu.Poo.RolePlayGame
             this.Vida = vida;
         }
 
-        public int AtaqueMagico()
+        public int RecibirAtaque()
+        {
+            
+        }
+
+        public static EsquivarAtaque()
         {
             
         }
