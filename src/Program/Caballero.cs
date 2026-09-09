@@ -13,7 +13,7 @@ namespace Ucu.Poo.RolePlayGame
             this.Vida = vida;
         }
 
-        public int AtaqueSagrado()
+        public int RecibirAtaque()
         {
             
         }
