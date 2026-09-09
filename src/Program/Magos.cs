@@ -2,12 +2,12 @@ using System;
 
 namespace Ucu.Poo.RolePlayGame
 {
-    public class Mago
+    public class Magos
     {
         public string Nombre { get ;  set; }
         public int Vida { get ;  set; }
 
-        public Mago(string nombre, int vida)
+        public Magos(string nombre, int vida)
         {
             this.Nombre = nombre;
             this.Vida = vida;
