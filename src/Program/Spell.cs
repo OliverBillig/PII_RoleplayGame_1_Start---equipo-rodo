@@ -7,9 +7,11 @@ namespace Ucu.Poo.RolePlayGame
     {
         public int AttackValue { get; }
         public int DefenseValue { get; }
+        public string Nombre { get; }
 
-        public Spell(int attackValue, int defenseValue)
+        public Spell(string nombre, int attackValue, int defenseValue)
         {
+            Nombre = nombre;
             AttackValue = attackValue;
             DefenseValue = defenseValue;
         }

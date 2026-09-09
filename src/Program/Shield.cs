@@ -6,9 +6,10 @@ namespace Ucu.Poo.RolePlayGame
     public class Shield
     {
         public int DefenseValue { get; }
-
-        public Shield(int defenseValue)
+        public string Nombre { get; }
+        public Shield(string nombre, int defenseValue)
         {
+            Nombre = nombre;
             DefenseValue = defenseValue;
         }
     }

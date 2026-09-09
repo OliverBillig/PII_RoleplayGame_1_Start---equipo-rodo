@@ -6,9 +6,10 @@ namespace Ucu.Poo.RolePlayGame
     public class Armor
     {
         public int DefenseValue { get; }
-
-        public Armor(int defenseValue)
+        public string Nombre { get; }
+        public Armor(string nombre, int defenseValue)
         {
+            Nombre = nombre;
             DefenseValue = defenseValue;
         }
     }

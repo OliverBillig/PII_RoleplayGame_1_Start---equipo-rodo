@@ -6,9 +6,11 @@ namespace Ucu.Poo.RolePlayGame
     public class Axe
     {
         public int AttackValue { get; }
+        public string Nombre { get; }
 
-        public Axe(int attackValue)
+        public Axe(string nombre, int attackValue)
         {
+            Nombre = nombre;
             AttackValue = attackValue;
         }
     }
