@@ -7,9 +7,5 @@ namespace Ucu.Poo.RolePlayGame
     {
         public int AtackValue = 8;
         public int DefenseValue = 3;
-        public Axe(int atackvalue)
-        {
-            this.AtackValue = atackvalue;
-        }
     }
 }

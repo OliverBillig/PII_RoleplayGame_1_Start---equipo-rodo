@@ -6,9 +6,5 @@ namespace Ucu.Poo.RolePlayGame
     public class Armor
     {
         public int DefenseValue = 8;
-        public Armor(int defensevalue)
-        {
-            this.DefenseValue = defensevalue;
-        }
     }
 }

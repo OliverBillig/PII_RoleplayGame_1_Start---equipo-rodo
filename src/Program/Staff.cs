@@ -7,10 +7,5 @@ namespace Ucu.Poo.RolePlayGame
     {
         public int AtackValue = 6;
         public int DefenseValue = 2;
-        public Staff(int atackvalue, int defensevalue)
-        {
-            this.AtackValue = atackvalue;
-            this.DefenseValue = defensevalue;
-        }
     }
 }
