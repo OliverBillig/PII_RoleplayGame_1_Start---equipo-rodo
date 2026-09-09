@@ -3,13 +3,15 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace Ucu.Poo.RolePlayGame
 {
-    public class Bow
+    public class Spell
     {
         public int AttackValue { get; }
+        public int DefenseValue { get; }
 
-        public Bow(int attackValue)
+        public Spell(int attackValue, int defenseValue)
         {
             AttackValue = attackValue;
+            DefenseValue = defenseValue;
         }
     }
 }

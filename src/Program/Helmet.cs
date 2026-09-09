@@ -5,6 +5,11 @@ namespace Ucu.Poo.RolePlayGame
 {
     public class Helmet
     {
-        public int DefenseValue = 4;
+        public int DefenseValue { get; }
+
+        public Helmet(int defenseValue)
+        {
+            DefenseValue = defenseValue;
+        }
     }
 }
