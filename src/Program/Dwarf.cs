@@ -5,18 +5,18 @@ using System.Dynamic;
 
 namespace Ucu.Poo.RolePlayGame
 {
-    public class Elfos
+    public class Enanos
     {
         public string Nombre { get ;  set; }
         public int Vida { get ;  set; }
 
-        public Elfos(string nombre, int vida)
+        public Enanos(string nombre, int vida)
         {
             this.Nombre = nombre;
             this.Vida = vida;
         }
 
-        public int AtaqueElfico()
+        public int AtaqueEnano()
         {
             
         }
